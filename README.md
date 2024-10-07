@@ -69,5 +69,28 @@ A classe `Funcionario` estende a classe `Pessoa` e adiciona atributos e métodos
   - `getTrabalhando()`: Retorna o estado do atributo `trabalhando`.
   - `setTrabalhando($trabalhando)`: Define o estado do atributo `trabalhando`.
 
+## Exemplo de Uso
+
+O exemplo a seguir demonstra como utilizar as classes `Pessoa`, `Aluno`, `Professor` e `Funcionario` para criar instâncias e manipular seus dados.
+
+1. **Inclusão de Classes**: O código começa incluindo as classes necessárias: `Pessoa`, `Aluno`, `Professor` e `Funcionario`.
+
+2. **Criação de Instâncias**:
+   - Quatro instâncias são criadas: uma de `Pessoa`, uma de `Aluno`, uma de `Professor` e uma de `Funcionario`.
+   - As instâncias são atribuídas a variáveis: `$p1`, `$p2`, `$p3`, e `$p4`.
+
+3. **Definindo Atributos**:
+   - O nome de cada pessoa é definido usando o método `setNome()`.
+   - O sexo de Pedro e Fabiana é definido usando o método `setSexo()`.
+   - O curso de Maria (aluna) é definido com `setCurso()`.
+   - O salário de Cláudio (professor) é definido com `setSalario()`.
+   - O setor de Fabiana (funcionária) é definido com `setSetor()`.
+
+4. **Exibindo Dados**:
+   - Os dados de cada instância são exibidos usando a função `print_r()`, que imprime as informações de cada objeto, mostrando todos os atributos definidos.
+
+Esse exemplo ilustra como instanciar as classes e definir seus atributos, demonstrando o uso prático do sistema de gestão de pessoas.
+
 ## Autor
+
 **Feito por Railton Araujo.**
