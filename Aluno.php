@@ -18,11 +18,9 @@ class Aluno extends Pessoa{
         $this->matricula = $matricula;
     }
 
-
     public function getCurso() {
         return $this->curso;
     }
-
 
     public function setCurso($curso) {
         $this->curso = $curso;
